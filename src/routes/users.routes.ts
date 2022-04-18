@@ -1,7 +1,7 @@
-import { Router } from 'express';
+import { Router } from 'express'
 
-const router = Router();
+const router = Router()
 
-router.post('/api/users', (req, res) => res.status(200));
+router.post('/api/users', (_req, res) => res.status(200))
 
-export default router;
+export default router
